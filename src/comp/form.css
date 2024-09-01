@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(52, 57, 79);
+}
+
+
+
+.uiDevider{
+    /* background-color: antiquewhite; */
+    padding:0 200px;
+    margin-top: 50px;
+    
+}
+
+.uiform{
+display: flex;
+flex-direction: column;
+row-gap: 10px;
+background-color: antiquewhite;
+justify-content: center;
+align-items: center;
+width: auto;
+padding: 20px;
+border-radius: 20px;
+box-shadow: 5px 5px 10px rgb(0, 0, 0);
+width: 500px;
+height: 300px;
+
+}
+
+p{
+    color: red;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+}
+
+pre{
+    color: cornflowerblue;
+    position: relative;
+    right: 200px;
+}
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-style: bold;
+    cursor: pointer;
+    
+
+}
+
+ input{
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+
+}
